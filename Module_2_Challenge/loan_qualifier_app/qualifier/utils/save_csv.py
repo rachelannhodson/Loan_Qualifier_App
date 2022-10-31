@@ -2,7 +2,7 @@ import csv
 from pathlib import Path
 
 
-csvpath = ''
+csvpath = ""
 # add a header for the csv file
 header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
 # designate a path for the file to populate on the local computer
