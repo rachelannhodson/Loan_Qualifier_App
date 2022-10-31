@@ -19,6 +19,8 @@ from qualifier.utils.calculators import (
     calculate_loan_to_value_ratio,
 )
 
+from qualifier.utils.save_csv import save_csv
+
 from qualifier.filters.max_loan_size import filter_max_loan_size
 from qualifier.filters.credit_score import filter_credit_score
 from qualifier.filters.debt_to_income import filter_debt_to_income
@@ -102,6 +104,8 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
     return bank_data_filtered
 
+# add a function which can save a new csv file with only the loans a potential borrower is qualified for
+save_csv = []
 
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
