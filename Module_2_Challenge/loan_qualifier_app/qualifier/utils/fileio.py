@@ -28,3 +28,14 @@ def load_csv(csvpath):
         for row in csvreader:
             data.append(row)
     return data
+
+# add a header for the csv file
+header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
+
+def save_csv(csvpath, data):
+    # function to write a new csv file with only the loans a potential borrower is qualified for
+    with open(csvpath, 'w', newline='') as csvfile:
+        csvwriter = csv.writer(csvfile, delimiter=",")
+        if header:
+            csvwriter.writerow(header)
+        csvwriter.writerows(data)
