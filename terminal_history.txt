@@ -1,0 +1,589 @@
+   50  cd desktop
+   51  pwd
+   52  ls
+   53  cd uw fintech
+   54  cd uw-fintech
+   55  cd UW-FinTech
+   56  ls
+   57  cd UW-FinTech
+   58  pwd
+   59  ls
+   60  ls
+   61  ls
+   62  cd uw-fintech
+   63  pwd
+   64  ls
+   65  cd ..
+   66  cd ..
+   67  cd ~
+   68  cd desktop
+   69  cd uw-fintech
+   70  ls
+   71  cd python_project
+   72  ls
+   73  conda activate dev
+   74  python --version
+   75  code .
+   76  python hello_python.py
+   77  conda deactivate
+   78  cd ~
+   79  shell command
+   80  cd desktop
+   81  cd uw-fintech
+   82  ls
+   83  cd python_project
+   84  ls
+   85  code .
+   86  cd hello_python.py
+   87  python hello_python.py
+   88  cd ~
+   89  code .
+   90  cd desktop
+   91  ls
+   92  cd uw-fintech
+   93  ls
+   94  cd python_project
+   95  ls
+   96  conda activate dev
+   97  python skill_drill_1.py
+   98  python skill_drill_1.py
+   99  python skill_drill_1.py
+  100  python skill_drill_1.py
+  101  python hello_variable_world.py
+  102  python hello_variable_world.py
+  103  cd dekstop
+  104  cd desktop
+  105  cd uw-fintech
+  106  ls
+  107  cd 01_hello_variable_world
+  108  ls
+  109  cd unsolved
+  110  ls
+  111  conda activate dev
+  112  python hello_variable_world.py
+  113  repeat
+  114  python hello_variable_world.py
+  115  python hello_variable_world.py
+  116  conda deactivate
+  117  cd~
+  118  cd ~
+  119  cd desktop
+  120  cd uw-fintech
+  121  ls
+  122  cd lesson_3
+  123  cd
+  124  cd desktop
+  125  cd uw-fintech
+  126  cd lesson_3
+  127  ls
+  128  cd 02_listing_assets
+  129  ls
+  130  cd unsolved
+  131  conda activate dev
+  132  python listing_assets.py
+  133  conda deactivate
+  134  cd
+  135  cd
+  136  cd desktop
+  137  cd uw-fintech
+  138  ls
+  139  cd lesson_3
+  140  ls
+  141  cd 03_the_401k_shuffle
+  142  cd unsolved
+  143  python the_401k_shuffle.py
+  144  python the_401k_shuffle.py
+  145  python the_401k_shuffle.py
+  146  python the_401k_shuffle.py
+  147  python the_401k_shuffle.py
+  148  python the_401k_shuffle.py
+  149  cd deskto
+  150  cd desktop
+  151  cd uw-fintech
+  152  ls
+  153  cd lesson_3
+  154  ls
+  155  cd 03_the_401k_shuffle
+  156  ls
+  157  cd unsolved
+  158  ls
+  159  python the_401k_shuffle.py
+  160  /usr/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson_3/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  161  /usr/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson_3/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  162  ls -al ~/.ssh
+  163  ssh-keygen -t rsa -b 4096 -C "rachelannhodson@gmail.com"
+  164  eval "$(ssh-agent -s)"
+  165  ssh-add ~/.ssh/id_rsa
+  166  pbcopy < ~/.ssh/id_rsa.pub
+  167  ssh -T git@github.com
+  168  ssh -T git@github.com
+  169  conda --version
+  170  conda env update
+  171  conda update
+  172  conda update conda
+  173  conda --version
+  174  python -V
+  175  brew install python
+  176  python -V
+  177  code .
+  178  vs code open
+  179  eval "$(ssh-agent -s)"
+  180  ssh-add ~/.ssh/id-rsa
+  181  ssh-add ~/.ssh/id_rsa
+  182  pbcopy < ~/.ssh/id_rsa.pub
+  183  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Class_1_Activities/02_Stu_Percent_Increase/Solved/percent_increase.py
+  184  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  185  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson4/Unsolved/conditional_statement.py
+  186  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson4/Unsolved/conditional_statement.py
+  187  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson4/Unsolved/conditional_statement.py
+  188  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson4.1/Unsolved/nested_conditionals.py
+  189  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson4.2/Unsolved/split_second_homebuying.py
+  190  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson4.2/Unsolved/split_second_homebuying.py
+  191  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson4.2/Unsolved/split_second_homebuying.py
+  192  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson4.2/Unsolved/split_second_homebuying.py
+  193  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson4.2/Unsolved/split_second_homebuying.py
+  194  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson4.2/Unsolved/split_second_homebuying.py
+  195  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson4.2/Unsolved/split_second_homebuying.py
+  196  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson4.2/Unsolved/split_second_homebuying.py
+  197  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson5/Unsolved/a_definitive_buy.py
+  198  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson5/Unsolved/a_definitive_buy.py
+  199  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson5.1/Unsolved/returned_goods.py
+  200  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson5.1/Unsolved/returned_goods.py
+  201  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Lesson5.1/Unsolved/returned_goods.py
+  202  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  203  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  204  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  205  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  206  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  207  git clone v
+  208  git clone https://uwa.bootcampcontent.com/UWA-Bootcamp/UW-VIRT-FIN-PT-10-2022-U-B.git
+  209  git cloene https://uwa.bootcampcontent.com/UWA-Bootcamp/UW-VIRT-FIN-PT-10-2022-U-B.git
+  210  git clone https://uwa.bootcampcontent.com/UWA-Bootcamp/UW-VIRT-FIN-PT-10-2022-U-B.git
+  211  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  212  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  213  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  214  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  215  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  216  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  217  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  218  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  219  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  220  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  221  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Unsolved/split_second_part_2.py"
+  222  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6/Unsolved/racking_up_the_profit.py"
+  223  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6/Unsolved/racking_up_the_profit.py"
+  224  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  225  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  226  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  227  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  228  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.1/Unsolved/pathways_to_success.py"
+  229  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.1/Unsolved/pathways_to_success.py"
+  230  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.1/Unsolved/pathways_to_success.py"
+  231  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.1/Unsolved/pathways_to_success.py"
+  232  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.1/Unsolved/pathways_to_success.py"
+  233  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.1/Unsolved/pathways_to_success.py"
+  234  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.1/Unsolved/pathways_to_success.py"
+  235  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.1/Unsolved/pathways_to_success.py"
+  236  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.1/Unsolved/pathways_to_success.py"
+  237  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.1/Unsolved/pathways_to_success.py"
+  238  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.1/Unsolved/pathways_to_success.py"
+  239  import pathlib
+  240  python import pathlib
+  241  python
+  242  which python
+  243  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.1/Unsolved/pathways_to_success.py"
+  244  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.1/Unsolved/pathways_to_success.py"
+  245  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.1/Unsolved/pathways_to_success.py"
+  246  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  247  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  248  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  249  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  250  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  251  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  252  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  253  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  254  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  255  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.2/Unsolved/pathways_to_success_part_2.py"
+  256  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  257  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  258  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  259  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  260  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  261  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  262  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  263  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  264  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  265  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  266  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  267  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  268  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  269  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  270  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  271  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  272  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  273  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  274  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  275  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  276  type(trades)
+  277  type(traders)
+  278  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  279  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  280  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  281  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  282  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Python_Project/Skill_Drill.py
+  283  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.2/Unsolved/pathways_to_success_part_2.py"
+  284  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.2/Unsolved/pathways_to_success_part_2.py"
+  285  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.2/Unsolved/pathways_to_success_part_2.py"
+  286  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.2/Unsolved/pathways_to_success_part_2.py"
+  287  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.2/Unsolved/pathways_to_success_part_2.py"
+  288  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.2/Unsolved/pathways_to_success_part_2.py"
+  289  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.2/Unsolved/pathways_to_success_part_2.py"
+  290  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.3/Unsolved/pathways_to_success_part_2.py"
+  291  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.3/Unsolved/pathways_to_success_part_2.py"
+  292  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.3/Unsolved/pathways_to_success_part_2.py"
+  293  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  294  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  295  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  296  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  297  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  298  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  299  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  300  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  301  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  302  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  303  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  304  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  305  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  306  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  307  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  308  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  309  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  310  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  311  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  312  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  313  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  314  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  315  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  316  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson6.4/Unsolved/automated_equity_rounds.py"
+  317  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  318  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  319  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  320  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  321  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  322  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  323  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  324  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  325  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  326  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  327  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  328  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  329  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  330  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  331  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  332  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  333  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  334  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  335  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  336  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  337  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  338  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Lesson5.2/Solved/split_second_part_2.py"
+  339  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  340  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  341  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  342  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  343  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  344  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  345  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  346  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  347  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  348  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  349  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  350  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  351  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  352  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  353  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  354  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  355  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  356  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  357  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  358  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  359  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  360  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  361  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  362  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  363  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  364  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  365  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  366  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  367  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  368  /usr/local/bin/python3 "/Users/rachelannhodson/Desktop/UW-FinTech/Module 1/Starter_Code/loan_analyzer.py"
+  369  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/Hodson_Module_1_Challenge.py
+  370  pip freeze
+  371  conda activate dev
+  372  pip -V
+  373  pip freeze
+  374  pip install fire
+  375  pip install questionary
+  376  conda deactivate
+  377  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/Hodson_Module_1_Challenge.py
+  378  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1/Unsolved/app.py
+  379  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/app.py
+  380  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/app.py
+  381  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/04-condition-control-flow-01/Unsolved/condition-control-flow-01.py
+  382  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/04-condition-control-flow-01/Unsolved/condition-control-flow-01.py
+  383  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/04-condition-control-flow-01/Unsolved/condition-control-flow-01.py
+  384  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/04-condition-control-flow-01/Unsolved/condition-control-flow-01.py
+  385  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/04-condition-control-flow-01/Unsolved/condition-control-flow-01.py
+  386  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/04-condition-control-flow-01/Unsolved/condition-control-flow-01.py
+  387  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved
+  388  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/app.py
+  389  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved
+  390  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/app.py
+  391  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved
+  392  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/app.py
+  393  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved
+  394  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/app.py
+  395  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved
+  396  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/app.py
+  397  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved
+  398  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/app.py
+  399  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved
+  400  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/app.py
+  401  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/qualifier/utils
+  402  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/qualifier/utils/fileio.py
+  403  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/qualifier/utils
+  404  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/qualifier/utils/fileio.py
+  405  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/qualifier/utils
+  406  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/qualifier/utils/fileio.py
+  407  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/qualifier/utils
+  408  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/qualifier/utils/fileio.py
+  409  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved
+  410  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/app.py
+  411  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved
+  412  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson1.1/Unsolved/app.py
+  413  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson2/Unsolved
+  414  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson2/Unsolved/app.py
+  415  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson2/Unsolved
+  416  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson2/Unsolved/app.py
+  417  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson2/Unsolved
+  418  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson2/Unsolved/app.py
+  419  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson2/Unsolved
+  420  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson2/Unsolved/app.py
+  421  pwd
+  422  ls
+  423  pip install fire
+  424  python cli.py
+  425  pwd
+  426  ls
+  427  desktop
+  428  cd desktop
+  429  cd uw_fintech
+  430  cd uw-fintech
+  431  cs module2
+  432  cd module2
+  433  cd lesson2
+  434  cw ..
+  435  cd ..
+  436  python cli.py
+  437  python cli.py
+  438  cli.py
+  439  python cli.[y
+  440  python cli.py
+  441  quit
+  442  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2
+  443  /usr/local/bin/python3 /Users/rachelannhodson/Desktop/UW-FinTech/Module2/cli.py
+  444  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2
+  445  /Users/rachelannhodson/opt/anaconda3/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/cli.py
+  446  conda activate base
+  447  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2
+  448  /Users/rachelannhodson/opt/anaconda3/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/cli.py
+  449  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2
+  450  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/cli.py
+  451  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2
+  452  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/cli.py
+  453  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2
+  454  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/cli.py
+  455  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2
+  456  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/cli.py
+  457  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2
+  458  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/cli.py
+  459  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2
+  460  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/cli.py
+  461  python cli.py --pants=True
+  462  conda activate dev
+  463  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved
+  464  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved/app.py
+  465  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved
+  466  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved/app.py
+  467  python app.py --credit_score=750
+  468  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved
+  469  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved/app.py
+  470  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved
+  471  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved/app.py
+  472  python app.py --credit_score = 780
+  473  python app.py --credit+score =750
+  474  python app.py --credit_score = 750
+  475  python app.py --credit_score = 750
+  476  cd desktop
+  477  cd uw-fintech
+  478  cd module2
+  479  python cli.py
+  480  python cli.py --pants=True
+  481  py cli.py --pants=True
+  482  python cli.py --pants=True
+  483  cd lesson3
+  484  ls
+  485  cd unsolved
+  486  ls
+  487  python app.py
+  488  python app.py
+  489  python app.py --credit_score=750
+  490  python app.py --credit_score=700
+  491  python app.py --credit_score=750
+  492  python app.py --credit_score = 750
+  493  pip show fire
+  494  conda activate dev
+  495  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved
+  496  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved/app.py
+  497  conda activate dev
+  498  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved
+  499  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved/app.py
+  500  python app.py --credit_score = 750
+  501  conda activate dev
+  502  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved
+  503  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved/app.py
+  504  python app.py --credit_score = 750
+  505  conda activate dev
+  506  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved/qualifier/filters
+  507  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved/qualifier/filters/credit_score.py
+  508  conda activate dev
+  509  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Solved
+  510  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Solved/app.py
+  511  python app.py --credit_score = 750
+  512  conda activate dev
+  513  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Solved
+  514  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Solved/app.py
+  515  python app.py --credit_score=750 --debt=5000 --income=20000
+  516  pip install questionary
+  517  git config --global user.name
+  518  git confg --list
+  519  git config --list
+  520  output_path = Path("your_loan_options.csv")\nheader = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]\nwith open(output_path, 'w', newline='') as csvfile:\n    csvwriter = csv.writer(csvfile, delimiter=",")\n    csvwriter.writerow(header)\n    for bank_loan in your_loan_options:\n        csvwriter.writerow(bank_loan.values())\n        print(bank_loan.values())
+  521  cd desktop
+  522  cd uw-fintech
+  523  ls
+  524  cd github_upload
+  525  git clone https://github.com/rachelannhodson/UW_FinTech_Hodson_Mod2.git
+  526  pwd
+  527  cd uw_fintech_hosdon_mod2
+  528  git status
+  529  cd..
+  530  cd ..
+  531  cd github_upload
+  532  git status
+  533  cd uw_fintech_hodson_mod2
+  534  git status
+  535  git add readme.md
+  536  git stauts
+  537  git status
+  538  git add README.md
+  539  git status
+  540  touch text
+  541  ls
+  542  git status
+  543  git add text
+  544  git status
+  545  git commit -m "<open new repository from terminal, add change to README.md file, add empty text file>"
+  546  git status
+  547  git push
+  548  git status
+  549  git add module_2_challenge
+  550  git status
+  551  git add <module_2_challenge>
+  552  git add Module_2_Challenge
+  553  git status
+  554  git commit -m "<start code initial commit for module 2 challenge>"
+  555  git status
+  556  git push
+  557  git status
+  558  git status
+  559  git add Module_2_Challenge/.DS_Store
+  560  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py
+  561  git add Module_2_Challenge/loan_qualifier_app/save_csv.csv
+  562  git status
+  563  git add Module_2_Challenge/loan_qualifier_app/app.py
+  564  git status
+  565  git push
+  566  git status
+  567  git commit -m "<added save_csv.py to create a module calculation function that can be added to the app, added save_csv.csv to begin the file in which the desired outcome (a list of all the loans a potential borrower is qualified for) results will populate>"
+  568  git push
+  569  git status
+  570  git status
+  571  git add Module_2_Challenge/loan_qualifier_app/README.md
+  572  git status
+  573  gir commit -m "<added to README.md, the technologies section>"
+  574  git commit -m "<added to README.md, the technologies section>"
+  575  git push
+  576  git status
+  577  git status
+  578  git add Module_2_Challenge/loan_qualifier_app/app.py
+  579  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py\n
+  580  git status
+  581  git commit -m "<completed the module for save_csv.py and added it to the app.py, confirmed it is working>"
+  582  git push
+  583  git status
+  584  git status
+  585  git add Module_2_Challenge/loan_qualifier_app/.DS_Store
+  586  git add Module_2_Challenge/loan_qualifier_app/qualifier/.DS_Store
+  587  git status
+  588  git add modified:   Module_2_Challenge/.DS_Store
+  589  git add Module_2_Challenge/.DS_Store
+  590  git add Module_2_Challenge/loan_qualifier_app/app.py
+  591  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py\n
+  592  git add Module_2_Challenge/loan_qualifier_app/save_csv.csv
+  593  git status
+  594  git commit -m "<Making progress on the save_qualifying_loans function, commiting to not lose my progress">
+  595  git status
+  596  git push
+  597  git status
+  598  git commit -m "<Making progress on the save_qualifying_loans function, commiting to not lose my progress>"
+  599  gir status
+  600  git status
+  601  git push
+  602  git status
+  603  git status
+  604  git add .DS_Store
+  605  git status
+  606  git add Module_2_Challenge/.DS_Store
+  607  git add Module_2_Challenge/loan_qualifier_app/.DS_Store
+  608  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py\n
+  609  git status
+  610  git commit -m "<Saving my progress, currently trying to figure out how to finish the saving_qualifying_loans function>"
+  611  git push
+  612  git status
+  613  git status
+  614  git add .DS_Store
+  615  git add Module_2_Challenge/.DS_Store
+  616  git add Module_2_Challenge/loan_qualifier_app/.DS_Store
+  617  Module_2_Challenge/loan_qualifier_app/app.py
+  618  git add
+  619  git add Module_2_Challenge/loan_qualifier_app/qualifier/.DS_Store
+  620  git add Module_2_Challenge/loan_qualifier_app/app.py
+  621  git status
+  622  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/fileio.py\n
+  623  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py\n
+  624  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/.DS_Store
+  625  git add Module_2_Challenge/loan_qualifier_app/save_csv.csv
+  626  git status
+  627  git commit -m "<Deleted the save_csv.py because that wasn't the correct way to add the module, instead i added the function for save_csv to the fileio.py. Also updated app.py so that the fileio.py is imported with save_csv. Also updated the save_qualified_loans function and it will now create a CSV file of the qualified loans should the user want that>"
+  628  git push
+  629  git status
+  630  cd ..
+  631  cd ..
+  632  cd ..
+  633  cd ..
+  634  history 50 > terminal_history.txt
+  635  cd desktop
+  636  cd uw-fintech
+  637  cd github_upload
+  638  cd uw_fintech_hodson_mod2
