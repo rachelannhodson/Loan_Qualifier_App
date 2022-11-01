@@ -464,126 +464,372 @@
   513  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Solved
   514  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Solved/app.py
   515  python app.py --credit_score=750 --debt=5000 --income=20000
-  516  pip install questionary
-  517  git config --global user.name
-  518  git confg --list
-  519  git config --list
-  520  output_path = Path("your_loan_options.csv")\nheader = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]\nwith open(output_path, 'w', newline='') as csvfile:\n    csvwriter = csv.writer(csvfile, delimiter=",")\n    csvwriter.writerow(header)\n    for bank_loan in your_loan_options:\n        csvwriter.writerow(bank_loan.values())\n        print(bank_loan.values())
-  521  cd desktop
-  522  cd uw-fintech
-  523  ls
-  524  cd github_upload
-  525  git clone https://github.com/rachelannhodson/UW_FinTech_Hodson_Mod2.git
-  526  pwd
-  527  cd uw_fintech_hosdon_mod2
-  528  git status
-  529  cd..
-  530  cd ..
-  531  cd github_upload
-  532  git status
-  533  cd uw_fintech_hodson_mod2
-  534  git status
-  535  git add readme.md
-  536  git stauts
-  537  git status
-  538  git add README.md
-  539  git status
-  540  touch text
-  541  ls
-  542  git status
-  543  git add text
-  544  git status
-  545  git commit -m "<open new repository from terminal, add change to README.md file, add empty text file>"
-  546  git status
-  547  git push
-  548  git status
-  549  git add module_2_challenge
-  550  git status
-  551  git add <module_2_challenge>
-  552  git add Module_2_Challenge
-  553  git status
-  554  git commit -m "<start code initial commit for module 2 challenge>"
-  555  git status
-  556  git push
-  557  git status
-  558  git status
-  559  git add Module_2_Challenge/.DS_Store
-  560  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py
-  561  git add Module_2_Challenge/loan_qualifier_app/save_csv.csv
-  562  git status
-  563  git add Module_2_Challenge/loan_qualifier_app/app.py
-  564  git status
-  565  git push
-  566  git status
-  567  git commit -m "<added save_csv.py to create a module calculation function that can be added to the app, added save_csv.csv to begin the file in which the desired outcome (a list of all the loans a potential borrower is qualified for) results will populate>"
-  568  git push
-  569  git status
-  570  git status
-  571  git add Module_2_Challenge/loan_qualifier_app/README.md
-  572  git status
-  573  gir commit -m "<added to README.md, the technologies section>"
-  574  git commit -m "<added to README.md, the technologies section>"
-  575  git push
-  576  git status
-  577  git status
-  578  git add Module_2_Challenge/loan_qualifier_app/app.py
-  579  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py\n
-  580  git status
-  581  git commit -m "<completed the module for save_csv.py and added it to the app.py, confirmed it is working>"
-  582  git push
-  583  git status
-  584  git status
-  585  git add Module_2_Challenge/loan_qualifier_app/.DS_Store
-  586  git add Module_2_Challenge/loan_qualifier_app/qualifier/.DS_Store
-  587  git status
-  588  git add modified:   Module_2_Challenge/.DS_Store
-  589  git add Module_2_Challenge/.DS_Store
-  590  git add Module_2_Challenge/loan_qualifier_app/app.py
-  591  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py\n
-  592  git add Module_2_Challenge/loan_qualifier_app/save_csv.csv
-  593  git status
-  594  git commit -m "<Making progress on the save_qualifying_loans function, commiting to not lose my progress">
-  595  git status
-  596  git push
-  597  git status
-  598  git commit -m "<Making progress on the save_qualifying_loans function, commiting to not lose my progress>"
-  599  gir status
-  600  git status
-  601  git push
-  602  git status
-  603  git status
-  604  git add .DS_Store
-  605  git status
-  606  git add Module_2_Challenge/.DS_Store
-  607  git add Module_2_Challenge/loan_qualifier_app/.DS_Store
-  608  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py\n
-  609  git status
-  610  git commit -m "<Saving my progress, currently trying to figure out how to finish the saving_qualifying_loans function>"
-  611  git push
-  612  git status
-  613  git status
-  614  git add .DS_Store
-  615  git add Module_2_Challenge/.DS_Store
-  616  git add Module_2_Challenge/loan_qualifier_app/.DS_Store
-  617  Module_2_Challenge/loan_qualifier_app/app.py
-  618  git add
-  619  git add Module_2_Challenge/loan_qualifier_app/qualifier/.DS_Store
-  620  git add Module_2_Challenge/loan_qualifier_app/app.py
-  621  git status
-  622  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/fileio.py\n
-  623  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py\n
-  624  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/.DS_Store
-  625  git add Module_2_Challenge/loan_qualifier_app/save_csv.csv
-  626  git status
-  627  git commit -m "<Deleted the save_csv.py because that wasn't the correct way to add the module, instead i added the function for save_csv to the fileio.py. Also updated app.py so that the fileio.py is imported with save_csv. Also updated the save_qualified_loans function and it will now create a CSV file of the qualified loans should the user want that>"
-  628  git push
-  629  git status
-  630  cd ..
-  631  cd ..
-  632  cd ..
-  633  cd ..
-  634  history 50 > terminal_history.txt
-  635  cd desktop
-  636  cd uw-fintech
-  637  cd github_upload
-  638  cd uw_fintech_hodson_mod2
+  516  conda activate dev
+  517  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved
+  518  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved/app.py
+  519  python app.py --credit_score=750 --debt=5000 --income=20000
+  520  python app.py --credit_score=803 --debt=2000 --income=300000
+  521  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved
+  522  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson3/Unsolved/app.py
+  523  xpython app.py --credit_score=750 --debt=5000 --income=20000
+  524  python app.py --credit_score=750 --debt=5000 --income=20000
+  525  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson4/Unsolved
+  526  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson4/Unsolved/app.py
+  527  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson4/Unsolved
+  528  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson4/Unsolved/app.py
+  529  conda activate dev
+  530  cd /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson4/Unsolved
+  531  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/Module2/Lesson4/Unsolved/app.py
+  532  cd desktop
+  533  cd uw-fintech
+  534  cd module2
+  535  cd lesson3
+  536  ls
+  537  cd unsolved
+  538  python app.py 
+  539  python app.py --credit_score=750 --debt=5000 --income=20000
+  540  cd ..
+  541  cd ..
+  542  cd lesson4
+  543  cd unsolved
+  544  cd ..
+  545  cd ..
+  546  python dialog.py
+  547  python dialog.py
+  548  python dialog.py
+  549  python dialog.py
+  550  cd lesson4
+  551  cd unsolved
+  552  python app.py
+  553  python app.py --credit_score=750 --debt=5000 --income=20000
+  554  python app.py --credit_score=750 --debt=5000 --income=20000
+  555  python app.py --credit_score=750 --debt=5000 --income=20000
+  556  python app.py
+  557  python app.py
+  558  conda activate dev
+  559  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  560  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  561  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  562  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  563  conda activate dev
+  564  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  565  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  566  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  567  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  568  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  569  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  570  conda activate dev
+  571  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  572  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  573  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/qualifier/utils
+  574  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py
+  575  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/qualifier/utils
+  576  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py
+  577  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/qualifier/utils
+  578  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py
+  579  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  580  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  581  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  582  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  583  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/qualifier/utils
+  584  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py
+  585  conda activate dev
+  586  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  587  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  588  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  589  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  590  conda activate dev
+  591  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  592  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  593  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  594  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  595  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  596  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  597  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  598  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  599  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  600  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  601  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  602  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  603  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  604  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  605  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python
+  606  sudo su
+  607  conda activate dev
+  608  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  609  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  610  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  611  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  612  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  613  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  614  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  615  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  616  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  617  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  618  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  619  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  620  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  621  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  622  xcd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  623  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  624  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  625  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  626  ./data/daily_rate_sheet.csv
+  627  ./data/daily_rate_sheet.csv
+  628  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  629  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  630  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  631  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  632  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  633  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  634  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  635  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  636  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  637  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  638  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  639  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  640  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  641  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  642  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  643  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  644  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  645  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  646  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  647  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  648  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  649  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  650  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  651  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  652  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  653  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  654  ./data/daily_rate_sheet.csv
+  655  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  656  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  657  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  658  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  659  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  660  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  661  ./data/daily_rate_sheet.csv
+  662  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  663  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  664  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  665  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  666  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  667  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  668  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  669  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  670  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  671  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  672  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  673  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  674  ./data/daily_rate_sheet.csv
+  675  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  676  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  677  ./data/daily_rate_sheet.csv
+  678  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  679  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  680  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  681  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  682  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  683  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  684  ./data/daily_rate_sheet.csv
+  685  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  686  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  687  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  688  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  689  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  690  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  691  conda activate dev
+  692  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  693  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  694  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  695  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  696  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  697  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  698  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  699  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  700  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  701  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  702  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  703  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  704  conda activate dev
+  705  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  706  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  707  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  708  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  709  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  710  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  711  pip install questionary
+  712  git config --global user.name
+  713  git confg --list
+  714  git config --list
+  715  output_path = Path("your_loan_options.csv")\nheader = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]\nwith open(output_path, 'w', newline='') as csvfile:\n    csvwriter = csv.writer(csvfile, delimiter=",")\n    csvwriter.writerow(header)\n    for bank_loan in your_loan_options:\n        csvwriter.writerow(bank_loan.values())\n        print(bank_loan.values())
+  716  cd desktop
+  717  cd uw-fintech
+  718  ls
+  719  cd github_upload
+  720  git clone https://github.com/rachelannhodson/UW_FinTech_Hodson_Mod2.git
+  721  pwd
+  722  cd uw_fintech_hosdon_mod2
+  723  git status
+  724  cd..
+  725  cd ..
+  726  cd github_upload
+  727  git status
+  728  cd uw_fintech_hodson_mod2
+  729  git status
+  730  git add readme.md
+  731  git stauts
+  732  git status
+  733  git add README.md
+  734  git status
+  735  touch text
+  736  ls
+  737  git status
+  738  git add text
+  739  git status
+  740  git commit -m "<open new repository from terminal, add change to README.md file, add empty text file>"
+  741  git status
+  742  git push
+  743  git status
+  744  git add module_2_challenge
+  745  git status
+  746  git add <module_2_challenge>
+  747  git add Module_2_Challenge
+  748  git status
+  749  git commit -m "<start code initial commit for module 2 challenge>"
+  750  git status
+  751  git push
+  752  git status
+  753  git status
+  754  git add Module_2_Challenge/.DS_Store
+  755  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py
+  756  git add Module_2_Challenge/loan_qualifier_app/save_csv.csv
+  757  git status
+  758  git add Module_2_Challenge/loan_qualifier_app/app.py
+  759  git status
+  760  git push
+  761  git status
+  762  git commit -m "<added save_csv.py to create a module calculation function that can be added to the app, added save_csv.csv to begin the file in which the desired outcome (a list of all the loans a potential borrower is qualified for) results will populate>"
+  763  git push
+  764  git status
+  765  git status
+  766  git add Module_2_Challenge/loan_qualifier_app/README.md
+  767  git status
+  768  gir commit -m "<added to README.md, the technologies section>"
+  769  git commit -m "<added to README.md, the technologies section>"
+  770  git push
+  771  git status
+  772  git status
+  773  git add Module_2_Challenge/loan_qualifier_app/app.py
+  774  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py\n
+  775  git status
+  776  git commit -m "<completed the module for save_csv.py and added it to the app.py, confirmed it is working>"
+  777  git push
+  778  git status
+  779  git status
+  780  git add Module_2_Challenge/loan_qualifier_app/.DS_Store
+  781  git add Module_2_Challenge/loan_qualifier_app/qualifier/.DS_Store
+  782  git status
+  783  git add modified:   Module_2_Challenge/.DS_Store
+  784  git add Module_2_Challenge/.DS_Store
+  785  git add Module_2_Challenge/loan_qualifier_app/app.py
+  786  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py\n
+  787  git add Module_2_Challenge/loan_qualifier_app/save_csv.csv
+  788  git status
+  789  git commit -m "<Making progress on the save_qualifying_loans function, commiting to not lose my progress">
+  790  git status
+  791  git push
+  792  git status
+  793  git commit -m "<Making progress on the save_qualifying_loans function, commiting to not lose my progress>"
+  794  gir status
+  795  git status
+  796  git push
+  797  git status
+  798  git status
+  799  git add .DS_Store
+  800  git status
+  801  git add Module_2_Challenge/.DS_Store
+  802  git add Module_2_Challenge/loan_qualifier_app/.DS_Store
+  803  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py\n
+  804  git status
+  805  git commit -m "<Saving my progress, currently trying to figure out how to finish the saving_qualifying_loans function>"
+  806  git push
+  807  git status
+  808  git status
+  809  git add .DS_Store
+  810  git add Module_2_Challenge/.DS_Store
+  811  git add Module_2_Challenge/loan_qualifier_app/.DS_Store
+  812  Module_2_Challenge/loan_qualifier_app/app.py
+  813  git add
+  814  git add Module_2_Challenge/loan_qualifier_app/qualifier/.DS_Store
+  815  git add Module_2_Challenge/loan_qualifier_app/app.py
+  816  git status
+  817  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/fileio.py\n
+  818  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/save_csv.py\n
+  819  git add Module_2_Challenge/loan_qualifier_app/qualifier/utils/.DS_Store
+  820  git add Module_2_Challenge/loan_qualifier_app/save_csv.csv
+  821  git status
+  822  git commit -m "<Deleted the save_csv.py because that wasn't the correct way to add the module, instead i added the function for save_csv to the fileio.py. Also updated app.py so that the fileio.py is imported with save_csv. Also updated the save_qualified_loans function and it will now create a CSV file of the qualified loans should the user want that>"
+  823  git push
+  824  git status
+  825  cd ..
+  826  cd ..
+  827  cd ..
+  828  cd ..
+  829  history 50 > terminal_history.txt
+  830  cd desktop
+  831  cd uw-fintech
+  832  cd github_upload
+  833  cd uw_fintech_hodson_mod2
+  834  history 50 > terminal_history.txt
+  835  cd desktop
+  836  cd uw-fintech
+  837  cd github_uploads
+  838  ls
+  839  cd github_upload
+  840  cd uw_fintech_hodson_mod2
+  841  git status
+  842  git add terminal_history.txt
+  843  git status
+  844  git commit -m "<add text file that shows the terminal history 50 proving my github pushes from terminal>"
+  845  git push
+  846  git status
+  847  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  848  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  849  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  850  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  851  ./data/daily_rate_sheet.csvcd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  852  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  853  cd /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app
+  854  /Users/rachelannhodson/opt/anaconda3/envs/dev/bin/python /Users/rachelannhodson/Desktop/UW-FinTech/GitHub_Upload/UW_FinTech_Hodson_Mod2/Module_2_Challenge/loan_qualifier_app/app.py
+  855  pip install fire
+  856  cd desktop
+  857  cd uw-fintech
+  858  cd github_upload
+  859  cd uw_fintech_hodson_mod2
+  860  cd module_2_challenge
+  861  cd.
+  862  cd..
+  863  cd .
+  864  cd ..
+  865  git status
+  866  git add Module_2_Challenge/loan_qualifier_app/README.md
+  867  git add Module_2_Challenge/loan_qualifier_app/readme.md_image_1.png
+  868  git status
+  869  git commit -m "<revised README.md file and commiting an image to use in the README.md file>"
+  870  git push
+  871  git status
+  872  cd module_2_challenge
+  873  cd loan_qualifier_app
+  874  ls
+  875  python app.py
+  876  cd .
+  877  cd ..
+  878  cd ..
+  879  git status
+  880  git add Module_2_Challenge/loan_qualifier_app/README.md
+  881  git status
+  882  git commit -m "<Finalized version of the README.md file>"
+  883  git push
+  884  git status
